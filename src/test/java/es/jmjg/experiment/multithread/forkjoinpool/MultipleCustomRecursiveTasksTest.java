@@ -1,12 +1,12 @@
 package es.jmjg.experiment.multithread.forkjoinpool;
 
-import es.jmjg.experiment.shared.FakeCaptureConsoleOutputTest;
+import es.jmjg.experiment.shared.CaptureConsoleOutputTest;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class MultipleCustomRecursiveTasksTest extends FakeCaptureConsoleOutputTest {
+public class MultipleCustomRecursiveTasksTest extends CaptureConsoleOutputTest {
 
     @Test
     public void testCompute() {

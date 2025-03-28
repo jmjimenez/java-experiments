@@ -1,14 +1,13 @@
 package es.jmjg.experiment.multithread.executorservice;
 
 import es.jmjg.experiment.shared.CaptureConsoleOutputTest;
-import es.jmjg.experiment.shared.FakeCaptureConsoleOutputTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-class ExecutorServiceTest  extends FakeCaptureConsoleOutputTest {
+class ExecutorServiceTest  extends CaptureConsoleOutputTest {
     @Test
     void testRunnable() {
         ExecutorService executorService = new ExecutorService();
