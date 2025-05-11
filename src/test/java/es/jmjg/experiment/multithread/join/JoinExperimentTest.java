@@ -23,6 +23,6 @@ public class JoinExperimentTest extends CaptureConsoleOutputTest {
 
         joinExperiment.execute(1);
 
-        this.assertOutputMatches(expectedOutput);
+        assertOutputMatches(expectedOutput);
     }
 }
